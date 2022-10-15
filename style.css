@@ -1,10 +1,18 @@
 *{font-family: Arial, Helvetica, sans-serif;}
 
+.page-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
 .top-row {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     padding: 0 20% 0 20%;
+    flex-basis: 100%;
 }
 
 .header-container {
@@ -52,6 +60,23 @@
     justify-content: center;
     padding-left: 30px;
 }
+
+.middle-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #f9faf8;
+    padding: 0 20% 0 20%;
+    flex-basis: 100%;
+}
+
+.middle-row .hero-main-text{
+    color: black;
+    text-align:justify;
+    flex-basis: 100%;
+
+} 
 
 .picture-top-wrapper{
     width: 400px;
